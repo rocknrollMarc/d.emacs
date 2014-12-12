@@ -8,13 +8,11 @@
 (menu-bar-mode t)
 
 ;;; You email address
-(setq user-mail-address "xiaohanyu1988@gmail.com")
+(setq user-mail-address "marc.bluemner@gmail.com")
 
 ;;; Calendar settings
 ;; you can use M-x sunrise-sunset to get the sun time
-(setq calendar-latitude 39.9)
-(setq calendar-longitude 116.3)
-(setq calendar-location-name "Beijing, China")
+(setq calendar-location-name "Hamburg, Germany")
 
 ;;; Time related settings
 ;; show time in 24hours format
@@ -62,3 +60,40 @@ inversion of gas-comment-region"
           (delete-char 1))
       (next-line))
     (goto-char end)))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(elfeed-feeds
+   (quote
+    ("http://feeds.feedburner.com/EverydayRails?format=xml")))
+ '(jabber-account-list
+   (quote
+    (("marc.bluemner@gmail.com"
+      (:password . "Meinefrau011280")
+      (:network-server . "talk.google.com")
+      (:port . 442)))))
+ '(magit-use-overlays nil)
+ '(ns-right-alternate-modifier (quote none))
+ '(ns-right-command-modifier (quote none))
+ '(ns-right-control-modifier (quote none))
+ '(org-directory "~/Dropbox/dev/org/")
+ '(org-mobile-agendas (quote default))
+ '(org-mobile-directory "/Users/mbluemner/Dropbox/dev/org/")
+ '(org-mobile-files
+   (quote
+    (org-agenda-files org-agenda-text-search-extra-files "")))
+ '(org-mobile-inbox-for-pull "~/.org/from-mobile.org")
+ '(rcirc-authinfo
+   (quote
+    (("irc.freenode.net" nickserv "rocknrollmarc" "meinefrau011280"))))
+ '(rcirc-auto-authenticate-flag t)
+ '(rcirc-default-nick "rocknrollmarc")
+ '(rcirc-default-user-name "rocknrollmarc"))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

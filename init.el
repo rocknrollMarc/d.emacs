@@ -77,3 +77,29 @@ FILENAME defaults to `buffer-file-name'."
 (org-babel-load-file (expand-file-name "ome.org" ome-dir))
 
 ;;; init.el ends here
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(jabber-account-list
+   (quote
+    (("marc.bluemner@gmail.com"
+      (:password . "Meinefrau011280")
+      (:network-server . "talk.google.com")
+      (:port . 442)))))
+ '(ns-right-alternate-modifier (quote none))
+ '(ns-right-command-modifier (quote none))
+ '(ns-right-control-modifier (quote none))
+ '(rcirc-authinfo
+   (quote
+    (("irc.freenode.net" nickserv "rocknrollmarc" "meinefrau011280"))))
+ '(rcirc-auto-authenticate-flag t)
+ '(rcirc-default-nick "rocknrollmarc")
+ '(rcirc-default-user-name "rocknrollmarc"))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

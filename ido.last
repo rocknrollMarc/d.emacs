@@ -1,0 +1,40 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/mbluemner/" . ".emacs.d/")
+ ("/Users/mbluemner/src/" . "crm/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/mbluemner/.emacs.d/"
+ "/Users/mbluemner/src/crm/"
+)
+
+;; ----- ido-work-file-list -----
+(
+
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/mbluemner/" (21642 36137 0 0) "yankring_history_v2.txt" "VirtualBox VMs/" "tower/" "themes/" "tat/" "src/" "site.retry" "setup.retry" "Public/" "powerline-fonts/" "Pictures/" "path/" "oh-my-emacs/" "Music/" "Movies/" "Library/" "itg.zsh-theme/" "Google Drive/" "golem/" "git-credential-osxkeychain" "floobits/" "Dropbox/" "Downloads/" "Documents/" "Docker/" "devops/" "Desktop/" "demo-site.retry" "colour-schemes/" "Calibre-Bibliothek/" "Applications/" "antigen.zsh" "aliases.zsh" "alf/" ".zshrc_BACKUP" ".zshrc.zni" ".zshrc.pre-oh-my-zsh" ".zshrc.backup" ".zshrc-e" ".zshrc" ".zshenv_BACKUP" ".zshenv.backup" ".zshenv" ".zsh_history" ".zsh_favlist" ".zsh.prompts/" ".zsh.before/" ".zsh.after/" ".zsh-update" ".zsh-fuzzy-match/" ".zprofile.backup" ".zprofile" ".zpreztorc.backup" ".zpreztorc" ".zprezto/" ".zlogout.backup" ".zlogout" ".zlogin.backup" ".zlogin" ".zhistory" ".zcompdump-rocknrollmarc-5.0.7" ".zcompdump-rocknrollmarc-5.0.5" ".zcompdump-CARE-NB-0024-5.0.7" ".zcompdump-CARE-NB-0024-5.0.5" ".zcompdump" ".zcompcache/" ".z" ".yankring-history_v2.txt" ".yadr/" ".vimrc" ".viminfz.tmp" ".viminfo" ".vim.backup/" ".vim/" ".vagrant.d/" ".unescaped_colors.rb" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".scripts/" ".rvm/" ".rediscli_history" ".rdebugrc" ".rbenv/" ".pythonhist" ".pryrc.backup" ".pryrc" ".pry_history" ".profile" ".pip/" ".org/" ".oh-my-zsh/" ".nvimlog" ".npm/" ".NERDTreeBookmarks" ".lesshst" ".irbrc" ".irb-history" ".ipython/" ".inputrc" ".idlerc/" ".histfile" ".guard_history" ".grunt-init/" ".gitignore_global" ".gitignore.backup" ".gitignore" ".gitconfig.backup" ".gitconfig" ".git-credentials" ".gemrc.backup" ".gemrc" ".gem/" ".floorc.json" ".fasd-init-cache" ".fasd-init-bash" ".fasd" ".escaped_colors.rb" ".emacs24.d/" ".emacs.d/" ".elfeed/" ".editrc" ".DS_Store" ".dropbox/" ".ctags" ".config/" ".cheat/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".boot2docker/" ".BitchX/" ".bin/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" ".asciinema/" ".aprc" ".antigen/" ".ansible/" ".android/" ".alf/" "#%2A-jabber-roster-%2A#4423nen#" "../" "./")
+
+ ("/Users/mbluemner/.emacs.d/" (21642 35602 0 0) "url/" "README.org" "projectile.cache" "projectile-bookmarks.eld" "ome.org" "ome.el" "ome-publish.org" "ome-el-get-recipes/" "modules/" "Makefile" "LICENSE.txt" "init.el" "ido.last~" "ido.last" "elpa/" "el-get/" "custom.el" "core/" "CONTRIBUTING.org" "CHANGELOG.org" "auto-save-list/" "ac-comphist.dat" ".saved-places" ".recentf~" ".recentf" ".org-id-locations" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/mbluemner/src/crm/" (21641 44875 0 0) "vendor/" "todo.org~" "todo.org" "tmp/" "TDD.org" "spec/" "script/" "README.md" "Rakefile.helpers" "Rakefile" "public/" "Procfile" "private_pub.ru" "log/" "lib/" "Guardfile" "Gemfile.lock" "Gemfile" "faye.sh" "dump.rdb" "doc/" "db/" "coverage/" "config.ru" "config/" "circle.yml" "Capfile" "bin/" "app/" ".rvmrc" ".ruby-version" ".ruby-gemset" ".rspec" ".pryrc" ".idea/" ".gitignore" ".git/" ".bundle/" ".#todo.org" "#todo.org#" "../" "./")
+
+ ("/Users/mbluemner/src/crm/app/" (21631 10827 0 0) "views/" "validators/" "uploaders/" "services/" "models/" "mailers/" "inputs/" "helpers/" "controllers/" "assets/" "../" "./")
+
+ ("/Users/mbluemner/src/crm/app/models/" (21637 47426 0 0) "work_log.rb" "watch_list_item.rb" "user_status.rb" "user_profile.rb" "user_permission.rb" "user.rb" "upload.rb" "ticket_type_field_set.rb" "ticket_type_field_condition_set.rb" "ticket_type_field_condition.rb" "ticket_type_field.rb" "ticket_type.rb" "ticket_status.rb" "ticket_service.rb" "ticket_nursing_home.rb" "ticket_field.rb" "ticket_attachment.rb" "ticket.rb" "suggestion.rb" "source.rb" "sortable_image.rb" "slug.rb" "search.rb" "post.rb" "person_nursing_home_mapping.rb" "person.rb" "operating_company_type.rb" "nursing_home_type_mapping.rb" "nursing_home_type.rb" "nursing_home_email_profile.rb" "nursing_home_country.rb" "nursing_home.rb" "nursing_home/" "notification.rb" "message_template.rb" "message_attachment.rb" "message.rb" "message/" "member_type.rb" "meeting_log.rb" "lookup_base.rb" "log.rb" "institution_message_templates_nursing_home.rb" "institution_message_template.rb" "image.rb" "hotline_request_source.rb" "hotline_request_reason.rb" "hotline_request_need.rb" "hotline_request.rb" "group.rb" "flow.rb" "file_link.rb" "family.rb" "facility_mapping.rb" "facility.rb" "export_rule.rb" "export.rb" "emailfilter_blacklist.rb" "email_address.rb" "disease.rb" "directory.rb" "data_export.rb" "data_export/" "contact_type.rb" "contact_data.rb" "contact_channel.rb" "contact_chanel_entry.rb" "contact.rb" "concern.rb" "comment.rb" "call_log_datum.rb" "call_log.rb" "break_log.rb" "ability.rb" ".gitkeep" "#ticket.rb#" "../" "./")
+
+ ("/Users/mbluemner/src/" (21638 49584 0 0) "youtube-dl/" "WebCarePlaybooks/" "webcareDevWorkstation/" "virtus-typhoeus-api-demo/" "virtus/" "vcr/" "testsystem/" "testgen/" "socializer/" "scaffold/" "ruby_scripts/" "ruby/" "rocknrollMarc.github.io/" "RefactorTrainerApp/" "redmine/" "rails-4-1-rspec-3-0/" "python/" "pretty_face/" "powerline-fonts/" "pflege_cms/" "osx-workstation-playbooks/" "OOP/" "naught/" "methadone/" "macbook-playbook/" "lobste/" "formulaic/" "fig_newton/" "exp/" "emacs/" "dotfiles/" "docker-selenium-xvfb/" "docker-selenium-hub-phantomjs/" "devops/" "data_magic/" "cucumberator/" "cucumber_factory/" "crm/" "chili/" "capybara_sauce/" "capybara_email/" "capybara-repl/" "capybara-page-object/" "capybara-extensions/" "bones/" "blogo/" "blog/" "ask_the_experts/" "ansible/" "alf/" "360-player/" ".DS_Store" "../" "./")
+
+ ("/Users/mbluemner/.emacs.d/elpa/" (21641 34935 0 0) "tdd-status-mode-line-20131123.916/" "speck-20140901.1835/" "ruby-interpolation-20131112.852/" "ruby-guard-20141128.144/" "robe-20141120.1919/" "rainbow-mode-0.10/" "orglue-20130912.1842/" "org-octopress-20141026.1700/" "org-mac-link-20141015.608/" "org-20141208/" "octomacs-20130919.1915/" "jabber-20141031.1155/" "inflections-20121016.157/" "epic-20141031.949/" "enotify-20130407.648/" "archives/" "../" "./")
+
+ ("/Users/mbluemner/.emacs.d/elpa/robe-20141120.1919/" (21641 34938 0 0) "robe.elc" "robe.el" "robe-pkg.el" "robe-autoloads.el~" "robe-autoloads.el" "lib/" "company-robe.elc" "company-robe.el" "ac-robe.elc" "ac-robe.el" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
