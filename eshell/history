@@ -1,0 +1,18 @@
+git status
+git add .
+git commit -m "can create comments"
+git checkout -b can_change_tickets_state
+rake db:migrate
+rake db:drop
+rake db:migrate
+rake db:seed
+rake db:test:prepare
+rake -T
+rake db:seed
+pwd
+pwd
+pwd
+pwd
+pwd
+ls
+ls

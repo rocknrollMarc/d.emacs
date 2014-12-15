@@ -40,7 +40,7 @@
 
 ;; enable git shallow clone to save time and bandwidth
 (setq el-get-git-shallow-clone t)
-
+(setq notify-method 'notify-via-growl)
 ;; Sometimes, we need to experiment with our own recipe, or override the
 ;; default el-get recipe to get around bugs.
 (add-to-list 'el-get-recipe-path "~/.emacs.d/ome-el-get-recipes")

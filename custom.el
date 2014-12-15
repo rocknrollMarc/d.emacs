@@ -47,6 +47,7 @@ comment-char for gas is ';', we need '#' instead"
       (next-line))
     (goto-char end)))
 
+(setq notify-method 'notify-via-growl)
 (defun gas-uncomment-region (start end)
   "Uncomment region for AT&T syntax assembly language the
 inversion of gas-comment-region"
@@ -67,7 +68,7 @@ inversion of gas-comment-region"
  ;; If there is more than one, they won't work right.
  '(elfeed-feeds
    (quote
-    ("http://feeds.feedburner.com/EverydayRails?format=xml")))
+    ("http://feeds.feedburner.com/RickySpearsBlog" "feeds.feedburner.com/Ricky/SpearsBlog?format=xml" "http://feeds.feedburner.com/EverydayRails?format=xml" "http://feeds.feedburner.com/EverydayRails?format=xml")))
  '(jabber-account-list
    (quote
     (("marc.bluemner@gmail.com"
